@@ -1,8 +1,11 @@
+#!/usr/bin/python
+
 ## Autor: Luis Fernando Morales Mejicanos
 ## 201020573
 ## Octubre de 2014
+## Requiere de Python 2.7 o posterior y Gtk+
+## Sistema Operativo GNU/Linux
 
-#!/usr/bin/python
 
 from gi.repository import Gtk, GObject, Gdk, GLib
 from random import randrange
