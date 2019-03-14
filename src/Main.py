@@ -240,7 +240,6 @@ class Principal(Gtk.Window):
             
             if it>0:
                 sale = math.fabs(costos_i[it]-costos_i[it-1])<= tolerancia
-                #sale = costos_i[it]<=tolerancia
                 
             if sale:
                 break
